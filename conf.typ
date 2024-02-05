@@ -1,6 +1,3 @@
-// The project function defines how your document looks.
-// It takes your content and some metadata and formats it.
-// Go ahead and customize it to your liking!
 #let project(
   title: "",
   abstract: [],
@@ -8,10 +5,22 @@
   date: none,
   body,
 ) = {
+  // Set paper fonts
+  set text(font: ("Times New Roman", "Source Han Serif VF"), lang: "zh", region: "cn")
+
+  // Configure the page.
+  set page(
+    // Set paper size
+    paper: "a4",
+    // Set paper margins
+    margin: (x: 0.75in, top: 1in, bottom: 1.25in),
+    // Set paper numbering
+    numbering: "1",
+    number-align: center
+  )
+
   // Set the document's basic properties.
   set document(author: authors.map(a => a.name), title: title)
-  set page(numbering: "1", number-align: center)
-  set text(font: "Family Song", lang: "zh")
 
   // Title row.
   align(center)[
@@ -39,7 +48,8 @@
     top: 1em,
     bottom: 1.1em,
     align(left)[
-      摘要：#abstract
+      *摘要*
+      #abstract
     ],
   )
 

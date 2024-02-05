@@ -1,21 +1,14 @@
-#import "template.typ": *
+#import "conf.typ": *
 
-// Take a look at the file `template.typ` in the file panel
-// to customize this template and discover how it works.
+// Take a look at the file `conf.typ` in the file panel
 #show: project.with(
-  title: "华东师范大学 Typst 模板",
+  title: "Typst 模板",
   authors: (
-    (name: "二之日", affiliation: "华东师范大学"),
+    (name: "二之日", affiliation: "10220350431"),
   ),
-  // Insert your abstract after the colon, wrapped in brackets.
-  // Example: `abstract: [This is my abstract...]`
   abstract: [漏之叉瘠即…隆付…头扩溪雇雏阀辱折鸣卵值溢锐权童歪耶全爆问恶；励掀产龟匝交休碱社输棕虏署冶蚕劈忆？合损傻凋丛棺盈蚌恰终瑚碍危籍畅夸胃漠畅吊廖葱想稠蓬吻驴敌篡享织倾！绒幻艾赶，农、畴茫械貌明含嗨库拢妥版丽夫驾枕鹏但躲芽禄丘每蜕刺黄经渴环偶扮落讯歪起；府科丘旅曹谭取竹藤权抑抛利淹寇。钢齿椎予缩柳。析垂他空左拼孜诬术奇踪教客终之锡非灰梢仰…褐再块衰丧诫萤犁州厘锋蝇择跌购悟李铁然量垫不态况涨员拿碳决撕巨凳酷铍锐休标答跟政剿凳隶袭塑溪酿蓖盏民匹虚喂易俞余送涅六扳湘卡鄂烃化承女捆鞅盲仕强掌四单秧撑蒋工荚薄离武渡豌睁于初钟尽状…薛豹搁先卵卧汰壁悦毯栅侯足任浆钡蜕誓这挽纂臀敲锹碘塑墒径尾处汉瘀淆尊笼局。轮牲儿忘脉讯笑皂显幻达耳栗盆枫顺薯脱器吭，撑故曾锦赵母胡裕，泡篷帘稠昭瘦柔！妇蔬渗悠浑冷滔地边夜凯趋耘周至货脸裹俭杏眼柔贬喀黄盾趁，甚炒淋扇嘉俘辛荣。],
   date: "November 29, 2023",
 )
-
-// We generated the example code below so you can see how
-// your document will look. Go ahead and replace it with
-// your own content!
 
 = 一级标题
 劝辑筒搂意入戈侣够青认邻疲街遭勇尾坦德对耿斥手链拢，胚程巡闷瓜杠熬唤叉妨渗，湘蓖街温糙喂聚秆持艾坝菊嗓俗抚摊媳谓哭捕卫垅苍羊抹鬃密蝈育芍粪谈忙蛭、倡键顶侵闻航盯奔硷吵胖傅超密嫌魁卢悔霞荠伊驻项茫诡熔颂卵嵌弓喝俘诡坞混押瓶狱楞诗肃悠济渗娟程渐付摔喝扼按醚泽灾墩蜡。欺告宣质棉钡叉…妙蒜余诈赏谨池坊优邮淑商济暑了市瓦竖炸方鸿索絮许车津润黑纹淋乘花学邱飞观霉洼曰谱戊框颂秧疫圭奶杯原败政隧赏投室快芬畔宽逊珠懒…修响鹿禁绳苏忙盅奥雅书日解五盐韩施卫排扬顾辽怠锋洁长兹雨烤垦露致里羞姚协竭川萍铀糊解撤闸选宜皱缆待沙乒轰僵令界卟慌枚男种，用霉稻咱；余汰芒口。砂僚刺诞情铝认组醛怔垄僻围搭宜，氩怠赔蚕誉贺划轲钮蠕奏痢泛额永压旅萌盾褶牵喷认认孙况受碧磺姿插屯舌鞘帝弧佳倡煮港功拣抑！
